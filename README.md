@@ -21,6 +21,7 @@ in a terminal / commandline window, navigate into the downloaded+renamed folder 
 ```
 git init
 git remote add origin https://github.com/[YourUsername]/[YourNewRepositoryName]
+git checkout -b main
 git add . -f
 git commit -m "initialize lfs repository"
 git push --set-upstream origin main
